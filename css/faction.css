@@ -1,0 +1,88 @@
+.faction{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+div.mainfaction{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+
+}
+div.mainfaction>.up{
+    font-size: 20px;
+    font-family: "IMB";
+
+}
+div.mainfaction>div.middle{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+div.mainfaction>div.middle>div{
+    width: 80px;
+    height: 80px;
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+div.mainfaction>div.middle>div>span{
+    /* text-align: justify; */
+    font-family: "IMB";
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+div.mainfaction>div.middle>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.mainfaction>div.down{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+div.mainfaction>div.down>div{
+    width: 80px;
+    height: 80px;
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+div.mainfaction>div.down>div>span{
+    font-family: "IMB";
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+div.mainfaction>div.down>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-jpg{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}

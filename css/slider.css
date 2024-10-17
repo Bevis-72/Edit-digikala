@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    width: 100%;
+    height: 65vh;
+    /* background-color: darkslateblue; */
+    margin-top: 15px;
+}
+.swiperslider {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slideslider {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slideslider img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

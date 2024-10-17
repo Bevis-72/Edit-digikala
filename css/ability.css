@@ -1,0 +1,41 @@
+.ability>div{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.one>img , .two>img  , .three>img  , .four>img  , .five>img  , .six>img  , .seven>img  , .eight>img  , .nine>img {
+    width: 51px;
+    height: 51px;
+
+}
+.one , .two  , .three  , .four  , .five  , .six  , .seven  , .eight  , .nine 
+, .ten{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ten{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: #f0f0f1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+div.ten>svg{
+    width: 32px; 
+    height: 32px; 
+    fill: #a1a3a8;
+}
+.one>span , .two>span  , .three>span  , .four>span  , .five>span  , .six>span  , .seven>span  , .eight>span  , .nine>span , .ten>span{
+    font-size: 10px;
+    font-family: "IMB";
+}

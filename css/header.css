@@ -1,0 +1,347 @@
+.header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 1px 0px 2px gray;
+  z-index: 20;
+  background-color: white;
+}
+
+div.header > .top_h {
+  width: inherit;
+  height: 60px;
+}
+.img1 {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+div.header > .middle_h {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+}
+div.header > .middle_h > div.right {
+  width: 70%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+div.header > .middle_h > div.right > .middle_img {
+  padding-right: 25px;
+  width: 13vw;
+}
+div.header > .middle_h > div.right > .middle_search {
+  /* width: 600px; */
+  height: 42px;
+  outline: none;
+  border-radius: 7px;
+  padding: 5px 5px 5px 400px;
+  border: none;
+  background-color: rgb(235, 232, 232);
+}
+
+div.header > .middle_h > div.right > .middle_search::placeholder {
+  font-family: "IMB";
+  font-size: 12px;
+  color: gray;
+  padding-right: 30px;
+}
+div.header > .middle_h > div.right > .middle_search:focus {
+  font-family: "IMB";
+  font-size: 14px;
+  color: rgb(94, 90, 90);
+  padding-right: 30px;
+}
+
+div.header > .middle_h > div.left {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+}
+div.header > .middle_h > div.left > a {
+  border: 1px solid lightgray;
+  width: 135px;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "IMB";
+  font-size: 13px;
+  border-radius: 7px;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+div.header > .bottom_h {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+div.header > .middle_h > div.left > a > svg {
+  color: black;
+  width: 24px;
+  height: 24px;
+  fill: #424750;
+}
+div.header > .middle_h > div.left > div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header > .middle_h > div.left > div > svg {
+  width: 24px;
+  height: 24px;
+  fill: #424750;
+  border-right: 1px solid lightgray;
+  padding-right: 20px;
+  margin-right: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.bottom_h > .right-bottom {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+.right-bottom > .megamenu {
+  font-size: 15px;
+  height: 100%;
+  font-family: "IMB";
+  margin-right: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.megamenu:hover > .subsubmenu {
+  display: block;
+}
+.subsubmenu {
+  height: 67vh;
+  width: 75vw;
+  /* background-color: gray; */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+}
+.sub3menu {
+  width: 13vw;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: start;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 30px black;
+}
+.insub3menu {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(237, 236, 236);
+}
+.subsubmenudivs {
+  font-size: 12px;
+  padding: 10px 20px 10px 0px;
+}
+.subsubmenudivs:hover {
+  background-color: white;
+  color: rgb(237, 15, 15);
+}
+div.undersub3menu {
+  /* width: 62vw; */
+  height: 67vh;
+  background-color: rgb(243, 240, 240);
+  position: absolute;
+  top: 0;
+  right: 17.3%;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  display: none;
+}
+.div_AB {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 60px;
+}
+.link {
+  padding: 20px 20px 25px 20px;
+  color: deepskyblue;
+}
+.div_A > ul {
+  padding: 8px 20px;
+  list-style: none;
+  color: rgb(159, 147, 147);
+  font-weight: lighter;
+  font-size: 11px;
+}
+.div_b > ul {
+  padding: 8px 20px;
+  list-style: none;
+  color: rgb(159, 147, 147);
+  font-weight: lighter;
+  font-size: 11px;
+}
+.bold {
+  color: black;
+  font-size: 14px;
+  border-right: 2px solid rgb(237, 15, 15);
+  padding-right: 10px;
+}
+.active{
+  display: block !important;
+}
+/* .book:hover > .undersub3menu, */
+.home:hover > .undersub3menu,
+.mobile:hover > .undersub3menu,
+.ckichen:hover > .undersub3menu,
+.electericity:hover > .undersub3menu,
+.clothes:hover > .undersub3menu,
+.tala:hover > .undersub3menu,
+.motor:hover > .undersub3menu,
+.abzar:hover > .undersub3menu,
+.cart:hover > .undersub3menu,
+.foods:hover > .undersub3menu,
+.toys:hover > .undersub3menu,
+.bomy:hover > .undersub3menu,
+.eyeliner:hover > .undersub3menu,
+.docter:hover > .undersub3menu,
+.sport:hover > .undersub3menu {
+  display: block;
+}
+
+.eyeliner,
+.docter,
+.sport,
+.motor,
+.abzar,
+.cart,
+.foods,
+.toys,
+.clothes,
+.bomy {
+  background-color: rgb(237, 236, 236);
+}
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.shegeftangiz:hover,
+.market:hover,
+.giftcart:hover,
+.searchtrend:hover,
+.discount:hover,
+.question:hover,
+.sell-in-digi:hover {
+  border-bottom: 2px solid red;
+  height: 25px;
+}
+.right-bottom > .menu > a {
+  font-size: 11px;
+  font-family: "IMB";
+  padding-left: 25px;
+  text-decoration: none;
+  color: #424750;
+}
+.shegeftangiz,
+.question {
+  border-right: 1px solid #b9babf;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.megamenu > svg {
+  width: 24px;
+  height: 24px;
+  fill: #424750;
+}
+.shegeftangiz > span > svg {
+  width: 22px;
+  height: 22px;
+  fill: #a1a3a8;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.giftcart {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.giftcart > span > svg {
+  width: 18px;
+  height: 18px;
+  fill: #a1a3a8;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.searchtrend > span > svg {
+  width: 22px;
+  height: 22px;
+  fill: #a1a3a8;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.discount > span > svg {
+  width: 22px;
+  height: 22px;
+  fill: #a1a3a8;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.left-bottom > div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.left-bottom > div > div > span {
+  font-size: 12px;
+  font-family: "IMB";
+  font-weight: lighter;
+  color: #717277;
+}
+.left-bottom > div > div > svg {
+  width: 20px;
+  height: 20px;
+  fill: #424750;
+  margin-right: 85px;
+  padding-left: 10px;
+}

@@ -1,0 +1,22 @@
+.mainadvertise2{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.advertise2{
+    width: 86%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.advertise2>div>img{
+    width: 100%;
+    border-radius: 15px;
+    display: inline-block;
+}

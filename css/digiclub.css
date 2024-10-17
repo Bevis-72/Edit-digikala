@@ -1,0 +1,61 @@
+.digiclub{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maindigiclub{
+    width: 86%;
+    height: inherit;
+    background-color: #387da2;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.rightdigiclub{
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.leftdigiclub{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+    gap: 5px;
+}
+.leftdigiclub>div{
+    width: 16%;
+    height: fit-content;
+    background-color: white;
+    padding: 0px 80px 0px 0px;
+}
+.leftdigiclub>div>img{
+    object-fit: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.wheel{
+    border-radius: 0px 7px 7px 0px;
+}
+.award{
+    border-radius: 7px 0px 0px 7px;
+}

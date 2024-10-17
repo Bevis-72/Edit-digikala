@@ -1,0 +1,299 @@
+div.footer{
+    width: 100%;
+    height: 800px;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    border-top: 0.3px solid rgb(211, 210, 210);
+}
+.logoAndphone{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    margin: 50px 0px;
+}
+.logoAndphone>img{
+    width: 195px;
+    height: 30px;
+    padding-right: 20px;
+}
+.logoAndphone>div>span{
+    font-size: 14px;
+    font-family: "IMB";
+    padding-right: 20px;
+    color: rgb(122, 76, 76);
+    font-weight: lighter;
+}
+.logoAndphone>div{
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+div.poshtibani{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+div.poshtibani>div{
+    background-color: #ed374d;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px lightgray;
+    transition: 250ms;
+}
+
+div.poshtibani>div>span{
+    font-size: 14px;
+    font-family: "IMB";
+    color: whitesmoke;
+}
+div.poshtibani>div:hover{
+    transform: scale(95%);
+}
+
+div.ghadamat{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    gap: 100px;
+    margin-bottom: 70px;
+}
+.ghadamat>div{
+    padding-right: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+
+.ghadamat>div>span{
+    color: rgb(122, 76, 76);
+    font-size: 15px;
+    font-family: "IMB";
+    font-weight: bolder;
+}
+.ghadamat>div>h5{
+    font-size: 12px;
+    font-family: "IMB";
+    color: #a1a3a8;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.ghadamat>div>h5:hover{
+    color: rgb(122, 76, 76);
+}
+.svgsocial{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ghadamat>div>div.svgsocial>div.svginstagram>svg{
+    width: 40px; 
+    height: 40px; 
+    fill: #a1a3a8;
+}
+.ghadamat>div>div.svgsocial>div.svgtwitter>svg{
+    width: 40px; 
+    height: 40px; 
+    fill: #a1a3a8;
+}
+.ghadamat>div>div.svgsocial>div.svglinkin>svg{
+    width: 40px; 
+    height: 40px; 
+    fill: #a1a3a8;
+}
+.ghadamat>div>div.svgsocial>div.svgaparat>svg{
+    width: 40px; 
+    height: 40px; 
+    fill: #a1a3a8;
+}
+.allsignin>div>span{
+    font-size: 15px;
+    color: rgb(122, 76, 76);
+    font-family: "IMB";
+}
+.allsignin>div>input.text{
+    background-color: rgb(237, 234, 234);
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.allsignin>div>input.text::placeholder{
+    font-size: 14px;
+    font-family: "IMB";
+    padding: 20px 10px;
+}
+
+
+.allsignin>div>input.submit{
+    background-color: rgb(237, 234, 234);
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.download{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.download{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.mainDownload{
+    width: 85%;
+    height: inherit;
+    background-color: #3c4b6d;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rightdownload{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.rightdownload>span{
+    font-size: 20px;
+    font-family: "IMB";
+    color: aliceblue;
+    padding-right: 30px;
+}
+.leftdownload{
+    width: 50%;
+    height: inherit;
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+}
+.leftdownload>div{
+    width: fit-content;
+    height: 40px;
+    margin-left: 10px;
+}
+.leftdownload>div.img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+.mainEtebar{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+}
+.etebarAnddescribe{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.etebar{
+    width: 30%;
+    height: 90px;
+    background-color: #fa919d;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.etebar>div{
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.etebar>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center center;
+}
+.describe{
+    width: 100%;
+    height: 100px;
+    background-color: #fa919d;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    margin-right: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.describe>span.aboutdigi{
+    font-size: 16px;
+    font-family: "IMB";
+}
+.describe>span{
+    font-size: 12px;
+    font-family: "IMB";
+}
+.ghanoon{
+    width: 100%;
+    height: 200px;
+    border-top: 0.3px solid gray;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.ghanoon>span{
+    font-size: 10px;
+    font-family: "IMB";
+    color: #a1a3a8;
+    transition: 500ms;
+}
+.ghanoon>span:hover{
+    color: rgb(122, 76, 76);
+    font-size: 11px;
+}

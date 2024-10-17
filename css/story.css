@@ -1,0 +1,189 @@
+
+div.allstory{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.story1 , .story2 , .story3 , .story4 , .story5 , .story6 , .story7 , .story8 , .story9 , .story10 , .story11
+ , .story12>div{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline-color: purple;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-offset: 2px;
+    position: relative;
+}
+div.story{
+    width: 85%;
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.story7>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story1>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story2>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story3>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story4>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story5>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story6>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story7>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story8>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story9>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story10>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story11>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story12>span{
+    font-family: "IMB";
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+    position: absolute;
+}
+.story12>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story1>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story2>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story3>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story4>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story5>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story6>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story7>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story8>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story9>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story10>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.story11>div>img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}

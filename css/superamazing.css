@@ -1,0 +1,57 @@
+.mainSuperamazing{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.superamazing{
+    width: 86%;
+    height: 110px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-right: 45px;
+    box-sizing: border-box;
+    background-color: #ecefee;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.leftsuperamazing{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10%;
+}
+.leftsuperamazing>div.circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.leftsuperamazing>div.circle>img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+.leftsuperamazing>div>span{
+    color: rgb(46, 151, 46);
+    font-family: "IMB";
+    font-size: 12px;
+    padding: 15px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+
+}
